@@ -1,0 +1,57 @@
+# Python / Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Server Runtime Data & Database
+server/uploads/
+server/results/
+*.db
+*.sqlite
+*.sqlite3
+
+# YOLO / Model weights (downloaded or large checkpoint files)
+*.pt
+*.onnx
+*.engine
+
+# Arduino / ESP32 build artifacts
+build/
+*.bin
+*.elf
+*.hex
+
+# Environment variables & secrets
+.env
+.env.local
+*.env
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
